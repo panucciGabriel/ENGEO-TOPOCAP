@@ -1,0 +1,65 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-bottom: 1px solid #444;
+}
+
+.empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.empresa_logo {
+    margin-bottom: 5px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.empresa_titulo {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.empresa_descricao {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+/* Estilizando o botão de contato */
+
+.botao {
+    margin-left: 10px;
+}
+
+.botao_contato {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao_contato:hover {
+    background-color: #3e8e41;
+}
+
+.botao_contato-link {
+    text-decoration: none;
+    color: #fff;
+}
